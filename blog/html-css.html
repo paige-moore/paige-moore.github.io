@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Technical blog</title>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Kanit:wght@100&family=Petemoss&family=Roboto:ital@1&family=Rubik&display=swap" rel="stylesheet">
+    <link rel= "stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2> Paige Moore
+            <br><span>Dev Blog</span></h2>
+                <img src="https://cdn2.iconfinder.com/data/icons/royal-crowns/512/royal-alphabet-crown-letter-english-p-512.png" alt="fancy letter P">
+         <nav>
+             <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="html-css.html">Blog</a></li>
+
+             </ul>
+         </nav>
+    </header>
+
+<div class="container"> 
+    <H1> Inline vs Inline-Block</H1>
+    <p> In this blog, we will see the difference between Inline vs. inline-block.</p>
+<p>The <span class="span_underline"> display</span> property has many different values which are very useful and is a commonly used property to control layout. It defines how an element is displayed. Every <span class="span_underline">HTML</span> element has a default display value depending on what type of element it is. 
+</p>
+
+<section class="inline">
+<h1> Inline</h1>
+    <P>This property is used to display an element in the same line</P>
+        <div class="inline_list">
+            <ul>
+                <li>An inline element does not start on a new line and only takes up as much width as necessary.</li>
+                <li>The height and width of the properties are not affected.</li>
+                <li>Only effect the left and right sides of the margins. 
+                </li>
+            </ul>
+        </div>
+
+<h3>Example: </h3>
+<p>If we place a button element with the <span class="span_underline">display: inline;</span> the element will take up as little space as possible. The padding on the element does not push other element away in a vertical direction. Padding on the left and right will push away because it is inline.</p>
+<img src="http://learnwebtutorials.com/wp-content/uploads/2014/12/without-inline-block.jpg" alt="buttons overlapping">
+<p class="imagesource">Image sourced from learnwebtutorials</p>
+</section>
+
+<section class="inlineblock">
+<h1>Inline-block </h1>
+    <p>This is used to set a display on an element as an inline block container. 
+    </p>
+    <div class="inline_list">
+        <ul>
+            <li>Allows setting a width and height on the element.</li>
+            <li>The top and bottom margins/paddings</li>
+            <li>Does not add a line-break after the element, so the element can sit next to other elements.</li>
+            <li>it is used to display an element as an inline-level block container.</li>
+        </ul>
+    </div>
+    <H3>Example</H3>
+    <p>If we set the CSS of a button to be <span class="span_underline"> display: inline-block;</span> its padding pushes away other surrounding elements. The left, right, top, bottom padding take up the space in the layout. </p>
+    <img src="http://learnwebtutorials.com/wp-content/uploads/2014/12/better-color-gradient.jpg" alt="buttons are not overlapping">
+    <p class="imagesource">Image sourced from learnwebtutorials</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
